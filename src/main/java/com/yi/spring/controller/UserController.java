@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/user")
-public class ViewController {
+public class UserController {
 
     @GetMapping("/login")
     public String loginPage() {
